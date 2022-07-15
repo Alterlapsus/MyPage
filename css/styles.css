@@ -49,12 +49,11 @@ body{
     border: 1px solid #fff;
 }
 .container__links{
-    margin-top: 1.5rem;
-    height: 60vh;
+    margin-top: 2rem;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0;
 }
 .container__link{
     font-size: 1.5rem;
@@ -89,7 +88,13 @@ body{
 }
 
 @media screen and (max-width: 365px) {
+    .container__links{
+        height: 57vh;
+    }
     .container__link{
         width: 15rem;
+    }
+    .footer{
+        margin-top: 1rem;
     }
 }
