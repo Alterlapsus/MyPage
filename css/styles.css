@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    /* background-image: url(/img/tikal.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header__img{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.header__picture{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    border: 2px solid #fff;   
+}
+
+.container__links{
+    margin-top: 5rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__link{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #c5c0b650;
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.container__link:hover{
+    background-color: rgba(0, 0, 0, 50%);
+}
