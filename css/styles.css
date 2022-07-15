@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Open+Sans:wght@300;400;500&family=PT+Sans:wght@700&display=swap");
+
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +7,8 @@
     /* outline: 1px solid red; */
 }
 body{
-    /* background-image: url(/img/tikal.jpg); */
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/img/tikal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -40,7 +43,7 @@ body{
     font-size: 1.5rem;
     text-decoration: none;
     background-color: #c5c0b650;
-    width: 50%;
+    width: 20rem;
     margin-bottom: 1rem;
     padding: 10px 20px;
     border-radius: 30px;
