@@ -76,7 +76,13 @@ body{
     border: 1.5px solid #fff;
 }
 
-
+.footer{
+    margin-bottom: 1rem;
+}
+.footer__copy{
+    text-align: center;
+    color: #fff;
+}
 
 @media screen and (max-width: 550px) {
     .container__link{
