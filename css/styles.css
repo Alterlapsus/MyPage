@@ -4,20 +4,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
     /* outline: 1px solid red; */
 }
 body{
-    font-family: 'Open Sans', sans-serif;
-    background: url(/img/hero.webp) no-repeat center center;
+    background: url(/img/hero.webp) no-repeat center center fixed;
     background-size: cover;
 }
-
+.main{
+    position: relative;
+}
 .container{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
 }
+#vanta {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 .header__img{
     display: flex;
     justify-content: center;

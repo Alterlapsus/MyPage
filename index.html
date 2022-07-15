@@ -7,9 +7,34 @@
     <title>MyPage</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          birdSize: 2.00,
+          wingSpan: 17.00,
+          quantity: 2.00,
+          backgroundAlpha: 0.0
+        })
+       })
+        </script>
 </head>
+<div id="vanta"></div>
 <body>
    
+     
+    <main class="main">
+
     <header class="header container">
         <figure class="header__img">
             <img src="/img/israel.jpg" alt="" class="header__picture">
@@ -19,38 +44,39 @@
         <a href="#" class="header__title">@alterlapsus</a>
     </section>
     </header>
-    
-    <main class="main">
+
         <section class="container">
             <div class="container__links">
 
-                <a href="#" class="container__link">
+                <a href="https://dog-glb.netlify.app/" target="_blank" class="container__link">
                     <img src="/img/homepage.svg" alt="homepage" width="30px">
                     Official Website
                 </a>
 
-                <a href="#" class="container__link">
+                <a href="https://github.com/Alterlapsus" target="_blank" class="container__link">
                     <img  src="/img/github.svg" alt="github" width="30px">
                     Github
 
                 </a>
 
-                <a href="#" class="container__link">
+                <a href="https://www.youtube.com/channel/UCOStO4uHUT9cLv_gvGwgdNA" target="_blank" class="container__link">
                     <img src="/img/youtube.svg" width="30px" alt="youtube">
                     Youtube
                 </a>
 
-                <a href="#" class="container__link">
+                <a href="https://twitter.com/Ruben96Israel" target="_blank" class="container__link">
                     <img src="/img/twitter.svg" alt="twitter" width="30px">
                     Twitter
                 </a>
 
             </div>
         </section>
+
+        <footer class="footer">
+            <p class="footer__copy">Derechos Reservados &copy Israel De Leon</p>
+        </footer>
     </main>
 
-    <footer class="footer">
-        <p class="footer__copy">Derechos Reservados &copy Israel De Leon</p>
-    </footer>
+   
 </body>
 </html>
