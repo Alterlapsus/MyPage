@@ -8,11 +8,10 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url(/img/tikal.jpg);
+    background: url(/img/hero.webp) no-repeat center center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
+
 .container{
     width: 90%;
     max-width: 1200px;
@@ -23,35 +22,70 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    
 }
 .header__picture{
     width: 8rem;
     height: 8rem;
     border-radius: 100%;
-    border: 2px solid #fff;   
+    border: 1.5px solid #fff;  
+    box-shadow: 3px -3px 40px 31px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 3px -3px 40px 31px rgba(0,0,0,0.63);
+    -moz-box-shadow: 3px -3px 40px 31px rgba(0,0,0,0.63);
 }
-
+.header__enlace{
+    display: flex;
+    justify-content: center;
+}
+.header__title{
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: rgba(0, 0, 0, 30%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #fff;
+}
 .container__links{
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .container__link{
-    color: #fff;
     font-size: 1.5rem;
+    font-weight: 300;
     text-decoration: none;
-    background-color: #c5c0b650;
-    width: 20rem;
-    margin-bottom: 1rem;
-    padding: 10px 20px;
+    width: 30rem;
     border-radius: 30px;
+    margin-bottom: 1.5rem;
+    padding: 10px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    background-color: #fffa;
+    color: #000;
 }
 .container__link:hover{
-    background-color: rgba(0, 0, 0, 50%);
+    background-color: rgba(0, 0, 0, 30%);
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .container__link{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .container__link{
+        width: 15rem;
+    }
 }
