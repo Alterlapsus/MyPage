@@ -11,6 +11,12 @@
 
 ---
 
+Tecnologías utilizadas: 
+- HTML 
+- CSS
+- JS
+
+---
 Descarga de archivos 
 
 - git 
