@@ -3,7 +3,6 @@
 - This is my personal page, which will have all the links, to be able to visit, my homepage and my social networks.
 
 
----
 
 
 <a href="https://mypageprofile.netlify.app/"  target="_blank">Visit Website </a>
