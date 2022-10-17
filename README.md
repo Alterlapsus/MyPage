@@ -18,7 +18,7 @@ Tecnologías utilizadas:
 - FLEX-BOX  
 - GRID
 - BEM
-- JS
+- library Vanta.js
 
 ---
 Descarga de archivos 
