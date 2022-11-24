@@ -25,7 +25,6 @@ Descarga de archivos
 - git 
 - git clone https://github.com/Alterlapsus/MyPage.git
 
-
 ---
 
 Maquetado por: 
