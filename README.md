@@ -18,7 +18,7 @@ Tecnologías utilizadas:
 - GRID
 - BEM
 - LIBRARY VANTA "JS".
-
+- VERCEL 
 ---
 
 Descarga de archivos 
