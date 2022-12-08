@@ -19,6 +19,7 @@ Tecnologías utilizadas:
 - BEM
 - LIBRARY VANTA "JS".
 - VERCEL 
+
 ---
 
 
