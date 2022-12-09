@@ -6,7 +6,7 @@
 
 <a href="https://my-page-profile.vercel.app"  target="_blank">Visit Website </a>
 
-<a href="https://ibb.co/T2XcV76"><img src="https://i.ibb.co/B3DLXQb/mypagefondo.png" alt="mypagefondo" border="0"></a>
+<a href="https://ibb.co/T2XcV76"><img src="https://i.ibb.co/B3DLXQb/mypagefondo.png" width="850px" alt="mypagefondo" border="0"></a>
 
 ---
 
