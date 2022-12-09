@@ -8,7 +8,7 @@
     /* outline: 1px solid red; */
 }
 body{
-    background: url(/img/hero.webp) no-repeat center center fixed;
+    background: url(/img/hero.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .main{
