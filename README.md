@@ -35,4 +35,4 @@ Maquetado por:
 
 - Israel De León  
 
-Inspired by devaslife challenge!!
+Inspired by devaslife challenge!
