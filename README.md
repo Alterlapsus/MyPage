@@ -18,7 +18,7 @@ Tecnologías utilizadas:
 - FLEX-BOX  
 - GRID
 - BEM
-- LIBRARY VANTA "JS".
+- LIBRARY VANTA "JS".  
 - VERCEL  
 
 --- 
