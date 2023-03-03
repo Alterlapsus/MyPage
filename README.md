@@ -11,7 +11,7 @@
  
 ---  
 
-Tecnologías utilizadas:  
+Tecnologías utilizadas:   
 
 - HTML 
 - CSS
