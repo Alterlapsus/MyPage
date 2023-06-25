@@ -8,7 +8,7 @@
    
 [![mypagefondo.png](https://i.postimg.cc/3NtG7719/mypagefondo.png)](https://postimg.cc/H87n4qf7)
        
-                
+                 
 ---                 
     
 Tecnologías utilizadas:   
