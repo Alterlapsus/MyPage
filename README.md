@@ -12,7 +12,7 @@
 ---                   
     
 Tecnologías utilizadas:   
-
+  
 - HTML 
 - CSS
 - FLEX-BOX   
