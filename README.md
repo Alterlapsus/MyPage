@@ -15,7 +15,7 @@ Tecnologías utilizadas:
   
 - HTML 
 - CSS
-- FLEX-BOX   
+- FLEX-BOX    
 - GRID
 - BEM
 - LIBRARY VANTA "JS".  
